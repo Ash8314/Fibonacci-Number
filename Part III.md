@@ -16,8 +16,8 @@ If you’re still enjoying this - what would you do to optimize the code? (think
 - Time complexity = O(N)
 - Space complexity = O(1)
 
-- Another approach is to use a combination of iterative and recursive functions. This can be used in the Fast Doubling method.
-- It uses the formulae:
++ Another approach is to use a combination of iterative and recursive functions. This can be used in the Fast Doubling method.
++ It uses the formulae:
        F(2n) = F(n)[2*F(n+1)-F(n)]
        F(2n+1) = (F(n)**2) + (F(n+1)**2)
-- Tail recursion can be used since it keeps only one function call in the stack at any point in time.
++ Tail recursion can be used since it keeps only one function call in the stack at any point in time.
