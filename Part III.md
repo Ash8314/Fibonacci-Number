@@ -5,7 +5,7 @@ If you’re still enjoying this - what would you do to optimize the code? (think
 - The values are stored in variables instead of an array.
 - Cost: Avoids the excessive use of memory space in the stack.
 - This method is good for a single function call as well as over long term.
-    Pseudo Code
+    Pseudo Code:
     Function (n)
       x = 1, y = 1;
       for i<--2 to n do
