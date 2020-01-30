@@ -6,6 +6,8 @@
 * FUNCTION: Fibonacci
 * Returns the Fibonacci number.
 * The function calculates the Fibonacci number recursively.
+* 
+* NOTE: This function calculates until F(43) after which the stack overflows.
 */
 
 unsigned long long Fibo_Recursive(unsigned int n)
