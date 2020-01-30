@@ -23,5 +23,5 @@ From your implementation of the above two functions (recursive and iterative), w
      - The poor performance is due to the heavy push-pop of the stack memory in each recursive call.
  
  - Situation where the Recursive version are used:
-        - There is limited data or small range of numbers.
-        - For training/demo purposes.
+     - There is limited data or small range of numbers.
+     - For training/demo purposes.
